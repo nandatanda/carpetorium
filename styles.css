@@ -3,11 +3,14 @@ html, body {
 }
 .banner {
   height: 160px;
-  background-color: darkred;
+  background-color: rgba(163, 22, 33, 1);
   font-family: serif;
   color: #f2f2f2;
   font-size: 4em;
   text-align: center;
+}
+#banner-logo {
+  height: 100%;
 }
 .navbar {
   overflow: hidden;
