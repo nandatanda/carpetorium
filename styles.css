@@ -41,7 +41,7 @@ html, body {
   background-image: linear-gradient(
   rgba(0, 0, 0, 0.5),
   rgba(0, 0, 0, 0.5)),
-    url("images/wooden-floor-1336166_1280.jpg");
+    url("/images/wooden-floor-1336166_1280.jpg");
 }
 .hero-text {
   text-align: center;
