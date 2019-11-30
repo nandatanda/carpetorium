@@ -2,7 +2,8 @@ html, body {
   margin: 0%
 }
 .banner {
-  height: 160px;
+  width: 100%;
+  /*height: 160px;*/
   background-color: rgba(163, 22, 33, 1);
   font-family: serif;
   color: #f2f2f2;
@@ -10,6 +11,7 @@ html, body {
   text-align: center;
 }
 #banner-logo {
+  width: 100%;
   height: 100%;
 }
 .navbar {
