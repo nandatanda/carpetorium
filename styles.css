@@ -1,13 +1,10 @@
 html, body {
-  margin: 0%
+  margin: 0%;
+  font-size: 16px;
 }
 .banner {
-  width: 100%;
-  /*height: 160px;*/
-  background-color: rgba(163, 22, 33, 1);
-  font-family: serif;
-  color: #f2f2f2;
-  font-size: 4em;
+  width: auto;
+  height: 160px;
   text-align: center;
 }
 #banner-logo {
@@ -29,6 +26,7 @@ html, body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 1em;
   }
 .navbar a:hover {
   background: #ddd;
@@ -38,7 +36,7 @@ html, body {
   height: 1500px; /* To enable scrolling */
 }
 .hero-image {
-  height: 50%;
+  height: 40%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
