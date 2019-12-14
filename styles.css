@@ -8,15 +8,15 @@ html, body {
   text-align: center;
   background-color: #A31521
 }
-.links {
+.spacer {
   background-color: #A31521;
   width: 100%;
 }
-.links a {
+/* .links a {
   font-size: 1em;
   color: #f2f2f2;
   padding: 0px 0px 0px 6px;
-}
+} */
 #banner-image {
   height: auto;
   max-width: 100%;
