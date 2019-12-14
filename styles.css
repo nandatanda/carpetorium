@@ -4,8 +4,18 @@ html, body {
 }
 .banner {
   width: auto;
+  min-height: 80px;
   text-align: center;
   background-color: #A31521
+}
+.links {
+  background-color: #A31521;
+  width: 100%;
+}
+.links a {
+  font-size: 1em;
+  color: #f2f2f2;
+  padding: 0px 0px 0px 6px;
 }
 #banner-image {
   height: auto;
