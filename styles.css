@@ -1,3 +1,23 @@
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
 html, body {
   margin: 0%;
   font-size: 16px;
@@ -7,17 +27,11 @@ html, body {
   min-height: 80px;
   text-align: center;
   background-color: #A31521;
-  padding-bottom: 14px;
 }
 .spacer {
   background-color: #A31521;
   width: 100%;
 }
-/* .links a {
-  font-size: 1em;
-  color: #f2f2f2;
-  padding: 0px 0px 0px 6px;
-} */
 #banner-image {
   height: auto;
   max-width: 100%;
@@ -32,17 +46,20 @@ html, body {
   z-index: 11;
 }
 .navbar a {
-  float: right;
+  float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 1em;
-  }
+}
 .navbar a:hover {
   background: #ddd;
   color: black;
+}
+.navbar .icon {
+  display: none;
 }
 .main {
   height: 1500px; /* To enable scrolling */
