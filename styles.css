@@ -6,7 +6,8 @@ html, body {
   width: auto;
   min-height: 80px;
   text-align: center;
-  background-color: #A31521
+  background-color: #A31521;
+  padding-bottom: 14px;
 }
 .spacer {
   background-color: #A31521;
