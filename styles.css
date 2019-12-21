@@ -1,5 +1,7 @@
 @media screen and (max-width: 600px) {
   .navbar {position: relative !important;}
+}
+@media screen and (max-width: 600px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
     float: right;
@@ -25,17 +27,15 @@ html, body {
 }
 .banner {
   width: auto;
-  min-height: 90px;
-  text-align: center;
   background-color: #A31521;
-}
-.spacer {
-  background-color: #A31521;
-  width: 100%;
 }
 #banner-image {
+  display: block;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 100%;
+  min-height: 90px;
   max-height: 150px;
 }
 .navbar {
