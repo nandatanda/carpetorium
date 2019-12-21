@@ -2,6 +2,12 @@
   .navbar {position: relative !important;}
 }
 @media screen and (max-width: 600px) {
+  #banner-image{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 600px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
     float: right;
@@ -32,10 +38,8 @@ html, body {
 #banner-image {
   display: block;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
   max-width: 100%;
-  max-height: 140px;
+  max-height: 100px;
 }
 .navbar {
   overflow: hidden;
