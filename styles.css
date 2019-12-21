@@ -24,7 +24,7 @@
   .navbar.responsive a {
     float: none;
     display: block;
-    text-align: left;
+    text-align: center;
   }
 }
 html, body {
@@ -50,7 +50,7 @@ html, body {
   z-index: 11;
 }
 .navbar a {
-  float: left;
+  float: right;
   display: block;
   color: #f2f2f2;
   text-align: center;
