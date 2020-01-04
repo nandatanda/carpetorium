@@ -3,7 +3,7 @@
 }
 @media screen and (max-width: 600px) {
   #banner-image{
-    margin-left: auto;
+    margin-left: auto !important;
     margin-right: auto;
   }
 }
@@ -32,15 +32,24 @@ html, body {
   font-size: 16px;
 }
 .banner {
+  overflow: hidden;
   width: auto;
   background-color: #A31521;
 }
 #banner-image {
   display: block;
-  height: auto;
+  float: left;
+  height: 80px;
   max-width: 100%;
-  max-height: 80px;
   margin-left: 2.5%;
+}
+.banner-link {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30.8px 16px;
+  text-decoration: none;
 }
 .navbar {
   overflow: hidden;
