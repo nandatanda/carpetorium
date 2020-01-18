@@ -6,48 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div class="spacer"></div>
     <div class="banner">
-      <a href="index.html">
-        <img id="banner-image" src="./images/banner-logo-cropped.png" 
-        alt="The Carpetorium logo, a minimalist yellow roll
-        of carpet on a red background.">
-      </a>
-    </div>
-    <div class="navbar" id="myNavbar">
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
+      <div class="logo">
+        <a href="index.html">
+          <img src="./images/banner-logo-cropped.png" 
+            alt="The Carpetorium logo, a minimalist yellow roll
+            of carpet on a red background.">
         </a>
-        <a href="index.html">Home</a>
-        <a href="index.html">Services</a>
-        <a href="index.html">News & Promotions</a>
-        <a href="index.html">Contact Us</a>
+      </div>
+      <div class="topnav">
+        <a href="contact.html">Contact Us</a>
+        <a href="news.html">News & Promotions</a>
+        <a href="services.html">Our Services</a>
+      </div>
     </div>
+    <div class="spacer"></div>
     <div class="main">
       <div class="hero-image">
         <div class="hero-text">
-          <h1>Your Premier Flooring Business</h1>
-          <p>Carpetorium in New York has made it easy for all 
-            New Yorkers to make better choices on carpet styles, 
-            carpet colors, carpet textures, carpet manufacturers, 
-            discount carpet sales and installation, and steam green carpet cleaning. 
-            Just by visiting our New York showroom, our website, 
-            or speaking with one of our highly certified carpet professionals, 
-            you will discover just how easy carpet-shopping can be.</p>
+          <h1>Quality First</h1>
+          <p>Hundreds of floors, incredible style, and professional quality installation
+            or repair in Queens, New York. Have a project in mind? 
+            We'll make your floor great again; speak with an expert today.</p>
+          <button>Call Now</button>
         </div>
       </div>
-      <h1>Services</h1>
+      <div class="spacer"></div>
+      <div style="text-align: center;">
+        <h1>Our Partners</h1>
+        <p style="margin-left: 25%; margin-right: 25%;">It's our pleasure to bring you the best floor coverings
+          from industry leaders without the hassle or confusion of shopping at a big warehouse store.
+          Over twenty years of experience with premier flooring manufacturers, along </p>
+        <div class="spacer"></div>
+      </div>
+      <div style="height: 25px;"></div>
+      <div style="height: 200px; border-style:solid; width: 70%; margin: auto;"></div>
+      <div style="height: 200px; border-style:solid; width: 70%; margin: auto;"></div>
+      <div style="height: 200px; border-style:solid; width: 70%; margin: auto;"></div>
     </div>
     <script>
-    function myFunction() {
-      var x = document.getElementById("myNavbar");
-      if (x.className === "navbar") {
-        x.className += " responsive";
-      } else {
-        x.className = "navbar";
-      }
-    }
+    // function myFunction() {
+    //   var x = document.getElementById("myNavbar");
+    //   if (x.className === "navbar") {
+    //     x.className += " responsive";
+    //   } else {
+    //     x.className = "navbar";
+    //   }
+    // }
     </script>
   </body>
 </html>
