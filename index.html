@@ -1,31 +1,39 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en" dir="ltr">
   <head>
+    <meta charset="utf-8">
     <title>Carpetorium - Quality First</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
+
     <div class="spacer"></div>
+
     <div class="banner">
-      <div class="logo">
-        <a href="index.html">
-          <img src="./images/banner-logo-cropped.png" 
-            alt="The Carpetorium logo, a minimalist yellow roll
-            of carpet on a red background.">
-        </a>
-      </div>
-      <div class="topnav">
+        <a href="index.html"><img class="logo" src="./images/banner-logo-cropped-2.png" 
+          alt="The Carpetorium logo, a minimalist yellow roll
+          of carpet on a red background."></a>
+        <input type="checkbox" id="chk">
+        <label for="chk" class="show-menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+
+      <ul class="menu">
         <a href="contact.html">Contact Us</a>
         <a href="news.html">News & Promotions</a>
         <a href="services.html">Our Services</a>
-      </div>
+        <label for="chk" class="hide-menu-btn">
+          <i class="fas fa-times"></i>
+        </label>
+      </ul>
     </div>
+
     <div class="spacer"></div>
-    <div class="main">
+
+    <div class="content">
       <div class="hero-image">
         <div class="hero-text">
           <h1>Quality First</h1>
