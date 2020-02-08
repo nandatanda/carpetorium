@@ -107,6 +107,12 @@ h1 {
   margin: auto;
 }
 
+#map {
+  height: 450px;  /* The height is 400 pixels */
+  width: 90%;  /* The width is the width of the web page */
+  margin: auto;
+ }
+
 @media screen and (max-width:940px) {
   .show-menu-btn,.hide-menu-btn{
     display: block;
