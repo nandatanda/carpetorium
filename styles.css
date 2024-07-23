@@ -107,6 +107,20 @@ h1 {
   margin: auto;
 }
 
+.service-item {
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.service-item h2 {
+  margin-bottom: 10px;
+}
+.service-item p {
+  margin: 0;
+}
+
 #map {
   height: 450px;  /* The height is 400 pixels */
   width: 90%;  /* The width is the width of the web page */
