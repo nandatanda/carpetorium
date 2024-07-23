@@ -1,8 +1,9 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  font-family: "montserrat",sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
+
 .banner {
   height: 70px;
   background: #a31621;
@@ -10,8 +11,9 @@
   position: relative;
   color: #f2f2f2;
   overflow: hidden;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .logo {
   float: left;
   position: absolute;
@@ -23,35 +25,38 @@
   max-height: 100%;
 }
 
-.menu{
+.menu {
   float: right;
   line-height: 70px;
 }
+
 .menu a {
   color: #f2f2f2;
   text-decoration: none;
   padding: 0 10px;
   transition: 0.4s;
 }
-.show-menu-btn,.hide-menu-btn{
+
+.show-menu-btn, .hide-menu-btn {
   transition: 0.4s;
   font-size: 30px;
   cursor: pointer;
   display: none;
 }
-.show-menu-btn{
+
+.show-menu-btn {
   float: right;
 }
+
 .show-menu-btn i {
   line-height: 70px;
 }
-.menu a:hover,
-.show-menu-btn:hover,
-.hide-menu-btn:hover {
+
+.menu a:hover, .show-menu-btn:hover, .hide-menu-btn:hover {
   color: #f18f01;
 }
 
-#chk{
+#chk {
   position: absolute;
   visibility: hidden;
   z-index: -1111;
@@ -70,9 +75,9 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
     url("./images/wooden-floor-1336166_1280.jpg");
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .hero-text {
   text-align: center;
   position: relative;
@@ -80,12 +85,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  /* margin-left: 10%; */
-  /* margin-right: 10%; */
   padding-left: 10%;
   padding-right: 10%;
-  /* width: 100%; */
-  /* height: 100%; */
   max-width: 1000px;
 }
 
@@ -94,14 +95,17 @@ h1 {
   font-weight: normal;
   padding-bottom: 15px;
 }
+
 .spacer {
   width: 100%;
   height: 30px;
 }
+
 .blurb {
   text-align: center;
   padding: 0 10%;
 }
+
 .blurb p {
   width: 80%;
   margin: auto;
@@ -116,12 +120,15 @@ h1 {
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .service-item h2 {
   margin-bottom: 10px;
 }
+
 .service-item p {
   margin: 0 0 20px 0;
 }
+
 .service-item::before {
   content: "";
   position: absolute;
@@ -132,11 +139,12 @@ h1 {
   background: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
-.service-item h2,
-.service-item p {
+
+.service-item h2, .service-item p {
   position: relative;
   z-index: 2;
 }
+
 .installation {
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.1),
@@ -148,20 +156,19 @@ h1 {
 }
 
 #map {
-  height: 450px;  /* The height is 400 pixels */
-  width: 90%;  /* The width is the width of the web page */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 
-  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 450px;
+  width: 90%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: auto;
   z-index: -11;
- }
+}
 
-@media screen and (max-width:940px) {
-  .show-menu-btn,.hide-menu-btn{
+@media screen and (max-width: 940px) {
+  .show-menu-btn, .hide-menu-btn {
     display: block;
   }
-  
-  .menu{
+
+  .menu {
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -174,16 +181,19 @@ h1 {
     transition: 0.7s;
     z-index: 99;
   }
-  .menu a{
+
+  .menu a {
     display: block;
     padding: 20px;
   }
-  .hide-menu-btn{
+
+  .hide-menu-btn {
     position: absolute;
     top: 40px;
     right: 40px;
   }
-  #chk:checked ~ .menu{
+
+  #chk:checked ~ .menu {
     right: 0;
   }
 }
