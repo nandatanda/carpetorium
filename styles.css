@@ -239,6 +239,7 @@ h1, h2 {
 
   .service-item {
     width: 80%;
+    padding: 30px;
   }
 
   #map {
