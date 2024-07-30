@@ -235,6 +235,7 @@ h1, h2 {
 
   .hero-image {
     width: 90%;
+    height: 350px;
   }
 
   .service-item {
